@@ -8,15 +8,15 @@ $user_agent = trim($_SERVER['HTTP_USER_AGENT']);
 
 $country = array(
 
-'RU' => 'https://gtapartner1.site/hqQcmh/',
-'ru' => 'https://gtapartner1.site/hqQcmh/',
+'RU' => 'https://google.com/',
+'ru' => 'https://google.com/',
 
-'KZ' => 'https://gtapartner1.site/hqQcmh/',
-'kz' => 'https://gtapartner1.site/hqQcmh/'
+'KZ' => 'https://google.com/',
+'kz' => 'https://google.com/'
 
 );
 
-$zaglushka = 'https://vv-app.site/';
+$zaglushka = 'https://youtube.com/';
 
 include('SxGeo.php');
 
@@ -29,7 +29,7 @@ $date = date('d.m.Y H:i:s', time());
 
 $hour = date('H', time());
 
-$show = 1;
+$show = 0;
 
 if ($id == 'app') {
 
